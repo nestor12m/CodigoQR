@@ -1,0 +1,62 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;500&family=Outfit:wght@300;400;600;700&family=Poppins:wght@300&family=Quicksand:wght@300;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Lightgray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.contenedor {
+    height: 460px;
+    width: 300px;
+    background-color: var(--White);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.imgqr {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contenedor-h1{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--Darkblue);
+    
+    
+    
+}
+.contenedor-p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: var(--Grayishblue);
+}
